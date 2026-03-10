@@ -9,22 +9,28 @@ pipeline {
 
         stage('Build') {
             steps {
+                sh """
                 echo "Hello Build"
                 echo "${course}"
+                """
             }
         }
 
         stage('Test') {
             steps {
+                sh """
                 echo "Hello Test"
                 echo "${course}"
+                """
             }
         }
 
         stage('Deploy') {
             steps {
+                sh """
                 echo "Hello Deploy"
                 echo "${course}"
+                """
             }
         }
 
