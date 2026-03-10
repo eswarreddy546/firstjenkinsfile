@@ -41,7 +41,8 @@ pipeline {
                 echo "Choice: ${params.CHOICE}"
 
                 echo "Password: ${params.PASSWORD}"
-
+               #webhook
+                echo "this is through webhook testing"
 
                 """
             }
