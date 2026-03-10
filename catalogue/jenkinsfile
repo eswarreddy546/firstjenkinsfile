@@ -32,19 +32,10 @@ pipeline {
                 
                 echo "Hello Build"
                 echo "${course}"
-                env
 
-                echo "Hello ${params.PERSON}"
-                echo "Biography: ${params.BIOGRAPHY}"
-                echo "Toggle: ${params.TOGGLE}"
-                echo "Choice: ${params.CHOICE}"
-                echo "Password: ${params.PASSWORD}"
+                
 
-                # webhook
-                echo "this is through webhook testing"
-
-                # poll through automation
-                echo "this is through webhook testing"
+                
             
             }
         }
