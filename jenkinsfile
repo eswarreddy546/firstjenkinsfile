@@ -12,6 +12,8 @@ pipeline {
                 sh """
                 echo "Hello Build"
                 echo "${course}"
+                 env
+
                 """
             }
         }
